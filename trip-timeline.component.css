@@ -1,0 +1,31 @@
+.timeline-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 250px;
+    padding: 10px;
+  }
+  
+  .trip-line {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-top: 3px solid;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .level-2 {
+    margin-top: 60px;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .arrow {
+    font-size: 20px;
+    color: #444;
+  }
+  

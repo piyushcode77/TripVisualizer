@@ -1,0 +1,13 @@
+<div class="timeline-container">
+    <ng-container *ngFor="let trip of trips">
+      <div
+        class="trip-line"
+        [class.level-2]="trip.level === 2"
+        [style.borderTopColor]="trip.color"
+      >
+        <span class="label">{{ trip.displayFrom }} - {{ trip.displayTo }}</span>
+        <span *ngIf="trip.isArrow" class="arrow">→</span>
+      </div>
+    </ng-container>
+  </div>
+  

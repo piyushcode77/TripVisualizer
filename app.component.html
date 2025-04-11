@@ -1,0 +1,5 @@
+<div class="main">
+  <h2>Trip Visualizer</h2>
+  <app-trip-input (newTrip)="onNewTrip($event)"></app-trip-input>
+  <app-trip-timeline [trips]="tripList"></app-trip-timeline>
+</div>
